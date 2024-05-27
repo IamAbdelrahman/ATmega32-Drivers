@@ -41,7 +41,7 @@ This repository provides drivers for ATmega32 microcontroller peripherals. The d
 ### DIO
 The DIO (Digital Input/Output) driver provides functions to configure and control the digital pins of the ATmega32.
 
-### Features
+#### Features
 - Configure pins as input or output
 - Write/Read digital values to/from pins
 - Write/Read digital values to/from ports
@@ -50,7 +50,7 @@ The DIO (Digital Input/Output) driver provides functions to configure and contro
 ### EXTI
 The EXTI (External Interrupt) driver provides functions to configure and handle external interrupts.
 
-### Features
+#### Features
 - Configure external interrupt sources
 - Enable/disable interrupts
 - Register callback functions for interrupt handling
@@ -60,25 +60,43 @@ The EXTI (External Interrupt) driver provides functions to configure and handle 
 ### LED
 The LED driver provides functions to control LEDs connected to the ATmega32.
 
-### Features
+#### Features
 - Turn LEDs on and off
 - Toggle LED state
 
 ### BUTTON
 The Button driver provides functions to read the state of buttons connected to the ATmega32.
 
-### Features
+#### Features
 - Read button states
 
 ### BUZZER
 The Buzzer driver provides functions to control a buzzer connected to the ATmega32.
 
-### Features
+#### Features
 - Turn buzzer on and off
 
 ### 7-Segment
 The 7-Segment Display driver provides functions to control a 7-segment display connected to the ATmega32.
 
-### Features
+#### Features
 - Display digits and letters on a 7-segment display
 - Clear the 7-segment display
+
+### LCD
+The LCD driver provides functions to control a 16x2 LCD in 8-bit/4-bit modes.
+
+#### Features
+- Initialize the LCD
+- Send commands and data to the LCD
+- Display characters and strings
+- Clear the LCD
+- Display numbers
+- Display custome characters
+
+### KEYPAD
+The Keypad driver provides functions to read key pressed from a 4x4 keypad.
+
+#### Features
+- Initialize the keypad
+- Read key pressed
