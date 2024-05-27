@@ -26,3 +26,5 @@
  * Function Prototypes
  **********************************************************************/
 const ST_GpioConfig_t* const LED_ConfigGet(void);
+
+#endif
