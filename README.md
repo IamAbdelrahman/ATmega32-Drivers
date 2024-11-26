@@ -7,14 +7,17 @@ Welcome to the ATmega32 Drivers repository! This project contains drivers for va
 - [Introduction](#introduction)
 - [Features](#features)
 - [MCAL Drivers](#mcal-drivers)
-  - [DIO](#dio)
+  - [GPIO](#gpio)
   - [EXTI](#exti)
+  - [UART](#uart)
+
 - [HAL Drivers](#hal-drivers)
   - [LED](#led)
   - [Button](#button)
   - [Buzzer](#buzzer)
   - [LCD](#lcd)
   - [Keypad](#keypad)
+  - [7-Segment](#7-segment)
 
 ## Introduction
 
@@ -25,8 +28,9 @@ This repository provides drivers for ATmega32 microcontroller peripherals. The d
 ## Features
 
 - **MCAL Drivers**:
-  - DIO (Digital Input/Output)
+  - GPIO (General Purpose Input/Output)
   - EXTI (External Interrupt)
+  - UART (Universal Asynchronous Receiver Transmitter)
 
 - **HAL Drivers**:
   - LED
@@ -38,8 +42,8 @@ This repository provides drivers for ATmega32 microcontroller peripherals. The d
 
 ## MCAL Drivers
 
-### DIO
-The DIO (Digital Input/Output) driver provides functions to configure and control the digital pins of the ATmega32.
+### GPIO
+The GPIO driver provides functions to configure and control the digital pins of the ATmega32.
 
 #### Features
 - Configure pins as input or output
@@ -54,6 +58,13 @@ The EXTI (External Interrupt) driver provides functions to configure and handle 
 - Configure external interrupt sources
 - Enable/disable interrupts
 - Register callback functions for interrupt handling
+
+### UART
+The UART (Universal Asynchronous Receiver Transmitter) driver provides functions to initialize, configure, and handle UART communication.
+
+#### Features
+- Initialize UART for specific communication parameters
+- Send and receive data over UART
 
 ## HAL Drivers
 
